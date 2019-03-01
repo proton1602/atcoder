@@ -1,0 +1,7 @@
+ri = lambda: int(input())
+rl = lambda: list(map(int,input().split()))
+A=ri()
+B=ri()
+C=ri()
+D=ri()
+print(min(A,B)+min(C,D))
