@@ -32,10 +32,11 @@ cnt_3 = exp_len - bisect.bisect_left(exp,3)
 ans = 0
 
 ans += cnt_75
-ans += cnt_
+ans += cnt_25*cnt_3 - cnt_25
+ans += cnt_15*cnt_5 - cnt_15
+ans += cnt_5*(cnt_5-1)/2*cnt_3 - cnt_5*(cnt_5-1)/2*2
+ans = int(ans)
 
-print(pri)
-print(exp)
 print(ans)
 
 
