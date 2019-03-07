@@ -6,3 +6,8 @@ yn = lambda b: print('Yes') if b else print('No')
 OE = lambda x: print('Odd') if x%2 else print('Even')
 INF = 10**18
 
+N,M,X=rl()
+A=rl()
+import bisect
+ind = bisect.bisect_left(A,X)
+print(min(ind,M-ind))
