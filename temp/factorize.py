@@ -1,4 +1,4 @@
-#‘fˆö”•ª‰ğ List[int] Œ^
+#2^2+3^1+... [2,2,3,...] List[int]
 def factorize(n):
     b = 2
     fct = []
@@ -12,7 +12,7 @@ def factorize(n):
     return fct
 
 
-#‘fˆö”•ª‰ğ List[Tuple[int, int]]Œ^
+#2^n+3^m+... ([2,n],[3,m],...) List[Tuple[int, int]]
 def factorize(n):
     fct = []  # prime factor
     b, e = 2, 0  # base, exponent
